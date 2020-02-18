@@ -22,6 +22,10 @@ function makeGreen (evt) {
 }
 
 // CREATE FUNCTION makeBlue HERE
+function makeBlue (e) {
+  e.target.classList.toggle("blue");
+  updateCounts();
+}
 
 // CREATE FUNCTION hide HERE
 
