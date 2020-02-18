@@ -20,6 +20,8 @@ function bindEventListeners (dots) {
 function makeGreen (evt) {
   evt.preventDefault();
   evt.target.classList.toggle('green');
+  evt.target.classList.toggle("blue", false);
+  evt.target.classList.toggle("invisible", false);
   updateCounts();
 }
 
