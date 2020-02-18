@@ -26,18 +26,18 @@ function makeGreen (evt) {
 }
 
 // CREATE FUNCTION makeBlue HERE
-function makeBlue (e) {
-  e.target.classList.toggle("blue");
-  e.target.classList.toggle("green", false);
-  e.target.classList.toggle("invisible", false);
+function makeBlue (evt) {
+  evt.target.classList.toggle("blue");
+  evt.target.classList.toggle("green", false);
+  evt.target.classList.toggle("invisible", false);
   updateCounts();
 }
 
 // CREATE FUNCTION hide HERE
-function hide (e) {
-  e.target.classList.toggle("invisible");
-  e.target.classList.toggle("blue", false);
-  e.target.classList.toggle("green", false);
+function hide (evt) {
+  evt.target.classList.toggle("invisible");
+  evt.target.classList.toggle("blue", false);
+  evt.target.classList.toggle("green", false);
   updateCounts();
 }
 
