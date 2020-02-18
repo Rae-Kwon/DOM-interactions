@@ -32,6 +32,8 @@ function makeBlue (e) {
 // CREATE FUNCTION hide HERE
 function hide (e) {
   e.target.classList.toggle("invisible");
+  e.target.classList.toggle("blue", false);
+  e.target.classList.toggle("green", false);
   updateCounts();
 }
 
