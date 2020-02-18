@@ -29,6 +29,10 @@ function makeBlue (e) {
 }
 
 // CREATE FUNCTION hide HERE
+function hide (e) {
+  e.target.classList.toggle("invisible");
+  updateCounts();
+}
 
 function updateCounts () {
   var totals = {
